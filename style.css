@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+.main {
+    width: 75vw;
+    height: 100vh;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.178);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main ul {
+    padding: 35px;
+}
+
+.heading1 {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.heading2 {
+    padding: 10px;
+    margin: 5px;
+}
+
+.heading2 p{
+    margin-left: 0px;
+    padding: 10px;
+}
