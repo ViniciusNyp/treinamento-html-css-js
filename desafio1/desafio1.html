@@ -1,12 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Desafio 1</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Formulário</h1>
+        <form action="" id="form" class="form">
+          <fieldset form="form" class="personalData">
+            <h2>Dados Pessoais</h2>
+            <label for="inputName">Nome:</label>
+            <input type="text" name="inputName" id="inputName" /> <br />
+            <label for="inputAddress">Endereço:</label>
+            <input type="text" name="inputAddress" id="inputAddress" /> <br />
+            <label for="inputCity">Cidade:</label>
+            <input type="text" name="inputCity" id="inputCity" /> <br />
+            <label for="estado">Estado:</label>
+            <select name="estado" id="dropdownEstado">
+              <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+              <option value="São Paulo">São Paulo</option>
+              <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+              <option value="Rio de Janeiro">Rio de Janeiro</option>
+              <option value="Minas Gerais">Minas Gerais</option>
+            </select>
+            <br />
+          </fieldset>
+          <fieldset form="form" class="professionalData">
+            <h2>Dados profissionais</h2>
+            <p>Natureza do Cargo</p>
+            <input type="radio" name="naturezaDoCargo" id="ger" /><label
+              for="ger"
+              >Gerência</label
+            >
+            <input type="radio" name="naturezaDoCargo" id="fin" /><label
+              for="fin"
+              >Financeiro</label
+            >
+            <input type="radio" name="naturezaDoCargo" id="rec" /><label
+              for="rec"
+              >Recepção</label
+            >
+            <input type="radio" name="naturezaDoCargo" id="adm" /><label
+              for="adm"
+              >Administração</label
+            >
+            <input type="radio" name="naturezaDoCargo" id="jur" /><label
+              for="jur"
+              >Jurídico</label
+            >
+
+            <p>Área de interesse</p>
+            <input type="checkbox" name="interestArea" id="comp" /><label
+              for="comp"
+              >Computação</label
+            >
+            <input type="checkbox" name="interestArea" id="bio" /><label
+              for="bio"
+              >Biologia</label
+            >
+            <input type="checkbox" name="interestArea" id="mb" /><label for="mb"
+              >Meio Ambiente</label
+            >
+            <input type="checkbox" name="interestArea" id="eng" /><label
+              for="eng"
+              >Engenharia</label
+            >
+            <input type="checkbox" name="interestArea" id="hist" /><label
+              for="hist"
+              >História</label
+            >
+
+            <label for="miniCurr">Mini-curriculo:</label>
+            <textarea
+              name="miniCurr"
+              id="miniCurr"
+              cols="30"
+              rows="5"
+            ></textarea>
+          </fieldset>
+
+          <input type="submit" value="Enviar" />
+          <input type="reset" />
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
