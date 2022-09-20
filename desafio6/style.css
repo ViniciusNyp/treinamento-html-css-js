@@ -14,7 +14,6 @@ body {
 #game {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border: 1px solid black;
     margin: auto;
 }
 
@@ -22,15 +21,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-left: 0;
+    border-top: 0;
     height: 20vw;
     width: 20vw;
 }
 
 .box:hover {
-    transition: 0.1s;
+    transition: 0.2s;
     background-color: rgba(0, 0, 0, 0.151);
-    border: 2px dashed black;
 }
 
 .prop {
@@ -38,4 +38,16 @@ body {
     text-align: center;
     font-weight: 400;
     font-family: monospace;
+}
+
+.noBorderRigth{
+    border-right: 0;
+}
+
+.noBorderLeft {
+    border-left: 0;
+}
+
+.noBorderBottom{
+    border-bottom: 0;
 }

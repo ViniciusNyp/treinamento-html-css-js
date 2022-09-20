@@ -7,20 +7,23 @@
 
 div, a {
     border-radius: 7px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
 }
 
 .navbar {
+    border-radius: 5px;
+    margin: 5%;
+    margin-top: 1%;
+    margin-bottom: 0;
     display: flex;
     background-color: brown;
     position: fixed;
-    width: 100%;
+    width: 90%;
     height: 5vh;
     top: 0;
     left: 0;
+    flex-wrap: nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-weight: bold;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.233);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.233);
@@ -38,6 +41,7 @@ div, a {
 }
 
 .firstLayer a {
+    font-size: 1rem;
     text-align: center;
 }
 
